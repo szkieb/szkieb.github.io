@@ -5,64 +5,27 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Stephan's Website</title>
-		<style>
-			body {
-				font-family: Verdana, Geneva, Tahoma, sans-serif;
-			}
-		</style>
+		<link rel="stylesheet" href="style.css" />
 	</head>
 
-	<body style="margin: 0">
-		<nav style="width: 100vw; background-color: #17302fff; height: 5vh">
-			<div style="padding-top: 1vh">
-				<a
-					style="
-						font-weight: 600;
-						font-size: larger;
-						color: #68dad5;
-						padding-left: 15vw;
-					"
-					href="./index.html"
-					>Home</a
-				>
-				<a
-					style="
-						font-weight: 400;
-						font-size: larger;
-						color: #68dad5;
-						padding-left: 20vw;
-					"
-					href="./projects.html"
-					>Projects</a
-				>
-				<a
-					style="
-						font-weight: 400;
-						font-size: larger;
-						color: #68dad5;
-						padding-left: 20vw;
-					"
-					href="./aboutme.html"
-					>About</a
-				>
-			</div>
+	<body>
+		<img
+			class="backgroundimage"
+			src="http://i.stack.imgur.com/7YKUD.jpg"
+			alt="background wooden planks"
+		/>
+
+		<nav>
+			<a id="activenavlink" href="./index.html">Home</a>
+			<a href="./projects.html">Projects</a>
+			<a href="./aboutme.html">About</a>
 		</nav>
 
-		<main
-			style="
-				background-image: url(http://i.stack.imgur.com/7YKUD.jpg);
-				position: absolute;
-				top: 5vh;
-				bottom: 6vh;
-				color: white;
-				padding-left: 2vh;
-			"
-		>
+		<main>
 			<h1>Welcome to Stephan's Page</h1>
 			<img
 				src="https://images.pexels.com/photos/236589/pexels-photo-236589.jpeg?cs=srgb&dl=pexels-pixabay-236589.jpg"
 				alt="apologetic monkey"
-				style="max-width: 80vw; max-height: 60vh"
 			/>
 			<p>
 				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim,
@@ -72,30 +35,10 @@
 			</p>
 		</main>
 
-		<footer
-			style="
-				position: fixed;
-				left: 0;
-				bottom: 0;
-				width: 100vw;
-				max-height: 8vh;
-				background-color: #17302fff;
-			"
-		>
-			<div style="padding-left: 2vw; color: #68dad5">
-				<p style="display: inline-block">Author: Stephan R</p>
-				<a
-					style="color: #68dad5; padding-left: 15vw"
-					href="mailto:ritscher@gmx.com"
-					>ritscher@gmx.com</a
-				>
-				<a
-					style="color: #68dad5; padding-left: 15vw"
-					href="https://github.com/szkieb"
-					target="_blank"
-					>Github Profile</a
-				>
-			</div>
+		<footer>
+			<p>Author: Stephan R</p>
+			<a href="mailto:ritscher@gmx.com">ritscher@gmx.com</a>
+			<a href="https://github.com/szkieb" target="_blank">Github Profile</a>
 		</footer>
 	</body>
 </html>
