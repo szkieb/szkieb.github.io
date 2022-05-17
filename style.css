@@ -4,7 +4,7 @@ body {
 }
 
 main {
-	padding: 2vh 2vh 2vh 2vh;
+	padding: 2vh;
 	color: white;
 }
 
@@ -28,6 +28,7 @@ a {
 .backgroundimage {
 	z-index: -1;
 	position: fixed;
+	height: 100vh;
 }
 
 /* Navigation element */
@@ -58,6 +59,7 @@ footer {
 	width: 100vw;
 	height: 6vh;
 	background-color: #17302fff;
+	overflow: hidden;
 }
 
 footer p {
